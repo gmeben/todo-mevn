@@ -1,0 +1,19 @@
+{
+  "name": "todo-mevn",
+  "version": "1.0.0",
+  "description": "A typical todo app written with MongoDB, Express, Vue, and Node.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmeben/todo-mevn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmeben/todo-mevn/issues"
+  },
+  "homepage": "https://github.com/gmeben/todo-mevn#readme"
+}
