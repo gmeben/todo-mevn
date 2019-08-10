@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/gmeben/todo-mevn/issues"
   },
-  "homepage": "https://github.com/gmeben/todo-mevn#readme"
+  "homepage": "https://github.com/gmeben/todo-mevn#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongojs": "^2.6.0"
+  }
 }
