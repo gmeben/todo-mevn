@@ -4,6 +4,7 @@ A typical todo app written with MongoDB, Express, Vue, and Node.
 ## Installation
 
 ``` bash
+# within the project directory
 npm i
 ```
 
