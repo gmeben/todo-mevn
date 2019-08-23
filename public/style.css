@@ -29,7 +29,7 @@ button {
 .input__draft {
     border-radius:0.4rem;
     font-size:18px;
-    padding:0.5rem 0.4rem;
+    padding:0.6rem;
     min-width:50%;
     transition: box-shadow 0.2s ease-in-out;
 }
