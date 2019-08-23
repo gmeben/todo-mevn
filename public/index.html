@@ -11,12 +11,14 @@
     <div class="contain">
         <h1>TODO MEVN App</h1>
         <div id="app">
-            <label for="generator">
-                <span>New Task:</span>
-                <input id="generator" type="text" v-model="taskDraft" class="todo-draft"> 
-            </label>
-            <button v-if="editMode==false" v-on:click="addNewTask()">Add</button>
-            <button v-else v-on:click="updateTask()">Update</button>
+            <section class="section__draft">
+                <label for="generator">
+                    <span>New Task:</span>
+                    <input id="generator" type="text" v-model="taskDraft" class="input__draft"> 
+                </label>
+                <button v-if="editMode==false" v-on:click="addNewTask()">Add</button>
+                <button v-else v-on:click="updateTask()">Update</button>
+            </section>
             <todo-item
                 v-for="todo in todos"
                 v-bind:todo="todo"

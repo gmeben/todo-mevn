@@ -1,5 +1,6 @@
 body {
     font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-size:20px;
 }
 ul {
     list-style:none;
@@ -25,10 +26,17 @@ button {
     max-width:38rem;
     margin:0 auto;
 }
-.todo-draft {
+.input__draft {
     border-radius:0.4rem;
-    margin-bottom:1rem;
-    padding:0.5rem 0.2rem;
-    width:50%;
+    font-size:18px;
+    padding:0.5rem 0.4rem;
+    min-width:50%;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.input__draft:focus {
+    box-shadow:0 0 0.4rem green inset;
+}
+.section__draft {
+    padding:1.2rem 0 2.2rem;
 }
 
