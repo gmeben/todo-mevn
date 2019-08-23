@@ -8,20 +8,22 @@
     <script type="application/javascript" src="vue.min.js"></script>
 </head>
 <body>
-    <h1>TODO MEVN App</h1>
-    <div id="app">
-        <label for="generator">
-            <span>Task:</span>
-            <input type="text" v-model="taskDraft" class="todo-draft"> 
-            <button v-if="editMode==false" v-on:click="addNewTask()">Add</button>
-            <button v-else v-on:click="updateTask()">Update</button>
-        </label>
-        <todo-item
-            v-for="todo in todos"
-            v-bind:todo="todo"
-            v-bind:key="todo.id"
-            v-bind:title="todo.title"
-        ></todo-item>
+    <div class="contain">
+        <h1>TODO MEVN App</h1>
+        <div id="app">
+            <label for="generator">
+                <span>Task:</span>
+                <input type="text" v-model="taskDraft" class="todo-draft"> 
+                <button v-if="editMode==false" v-on:click="addNewTask()">Add</button>
+                <button v-else v-on:click="updateTask()">Update</button>
+            </label>
+            <todo-item
+                v-for="todo in todos"
+                v-bind:todo="todo"
+                v-bind:key="todo.id"
+                v-bind:title="todo.title"
+            ></todo-item>
+        </div>
     </div>
     <script type="application/javascript" src="axios.min.js"></script>
     <script type="application/javascript" src="app.js?v=1"></script>

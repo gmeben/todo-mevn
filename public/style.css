@@ -23,6 +23,11 @@ button {
     margin: 0.4rem 0;
 }
 
+.contain {
+    max-width: 720px;
+    margin:0 auto;
+}
+
 .todo-draft {
     margin-left:1.4rem;
     padding:0.2rem;
