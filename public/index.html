@@ -12,11 +12,11 @@
         <h1>TODO MEVN App</h1>
         <div id="app">
             <label for="generator">
-                <span>Task:</span>
-                <input type="text" v-model="taskDraft" class="todo-draft"> 
-                <button v-if="editMode==false" v-on:click="addNewTask()">Add</button>
-                <button v-else v-on:click="updateTask()">Update</button>
+                <span>New Task:</span>
+                <input id="generator" type="text" v-model="taskDraft" class="todo-draft"> 
             </label>
+            <button v-if="editMode==false" v-on:click="addNewTask()">Add</button>
+            <button v-else v-on:click="updateTask()">Update</button>
             <todo-item
                 v-for="todo in todos"
                 v-bind:todo="todo"
