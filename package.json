@@ -1,6 +1,6 @@
 {
   "name": "todo-mevn",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A typical todo app written with MongoDB, Express, Vue, and Node.",
   "main": "server.js",
   "scripts": {
